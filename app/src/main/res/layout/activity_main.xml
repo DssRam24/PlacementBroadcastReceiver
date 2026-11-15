@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Placement Update"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etCompany"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Company name"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/etRole"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Role"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/etPackage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Package (LPA)"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/btnSendBroadcast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Send Placement Update" />
+
+    <Button
+        android:id="@+id/btnSendWrong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send With Wrong Action" />
+
+    <TextView
+        android:id="@+id/tvResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="No update received yet"
+        android:textSize="20sp" />
+
+</LinearLayout>
